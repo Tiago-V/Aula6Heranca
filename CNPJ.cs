@@ -4,7 +4,7 @@ namespace Atv_6
     {
         public string cnpj;
         public bool ValidarCNPJ(){
-            if(cnpj != ""){
+            if(cnpj != null){
                 return true;
             }
 

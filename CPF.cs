@@ -6,7 +6,7 @@ namespace Atv_6
         public string rg;
         public bool ValidarCPF(){
 
-            if(cpf != ""){
+            if(cpf != null){
                 return true; 
             }
 
