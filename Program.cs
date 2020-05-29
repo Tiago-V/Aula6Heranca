@@ -6,7 +6,9 @@ namespace Atv_6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CPF cpf = new CPF();
+            cpf.nome = Console.ReadLine();
+            Console.WriteLine( cpf.Saudacao());
         }
     }
 }
